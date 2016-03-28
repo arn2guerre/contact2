@@ -1,0 +1,105 @@
+<head>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Exo:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</head>
+<div class="container-fluid text-center ">
+    <h1>Contactory</h1>
+ <br> 
+  <div class="jumbotron text-center container">
+
+    <h2>Size your absorption colum</h2>
+    <h3>AND</h3>
+    <h2>Chose the better contactor technologie</h2>
+
+
+
+   </div>
+    <div class="jumbotron text-center container">
+
+      <h4>SIZING</h4>
+
+      <div class="container text-center col-sm-3 col-sm-offset-3">
+
+        <form class="form-style-4 text-center" action="#" id="form"/>
+<label for="field1">
+<span>Molar mass liquid</span><input type="text" id="deb" name="field1" required="true" />
+</label>
+<label for="field2">
+<span>Molar mass gaz</span><input type="text" name="field2" required="true" />
+</label>
+<label for="field3">
+<span>tension surface</span><input type="text" name="field3" required="true" />
+</label>
+<label for="field4">
+<span>debit gaz</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+</label>
+
+          <label for="field5">
+<span>debit liquid <br> (0 if you dont know)</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true" ></textarea>
+</label>
+
+
+<label>
+<span>&nbsp;</span><input type="submit" onclick="javascript:show_hide_div('texte');"  value="Calculate" />
+</label>
+</form>
+      </div>
+
+   </div>
+  <div class="container text-center blanc ">
+    <h4 id="resultat"></h4>
+
+
+    <div id="texte" class="texte">
+      <div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <div class="thumbnail">
+      <img src="http://pantan.co/wp-content/uploads/2015/09/Structured-Packing.png" alt="structured1">
+      <div class="caption">
+        <h3>Penta-Pak</h3>
+        <p id="quote"></p>
+        <p><a href="#" class="btn btn-primary" role="button">Order</a> <span>&nbsp;</span><input type="submit" onclick="javascript:showDiv('more');"  value="More information" /></p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+</div>
+<div class="more container" id="more">
+  <br>
+  <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">get more information</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b24410433796243c0cbec295e_454c18b2dc" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="more information" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+</div>
+<div class="right">
+  <h7> By FERTEC </h7>
+</div>
